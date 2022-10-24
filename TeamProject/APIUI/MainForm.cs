@@ -1,7 +1,10 @@
 ﻿// Assignment 16: PoC
 // Program to get data from Chuck Norris API
 // Group Project: Ryan Riccio, Ridge Wada, Young Gi Hong, Koa Afusia
+<<<<<<< HEAD
 // Oct 24th, 2022
+=======
+>>>>>>> c67c7f3 (Added Documentation)
 
 using System;
 using System.Collections.Generic;
