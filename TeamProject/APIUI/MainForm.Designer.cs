@@ -41,6 +41,7 @@
             this.btn_Get.TabIndex = 0;
             this.btn_Get.Text = "GET";
             this.btn_Get.UseVisualStyleBackColor = true;
+            this.btn_Get.Click += new System.EventHandler(this.btn_Get_Click);
             // 
             // rtb_Output
             // 
