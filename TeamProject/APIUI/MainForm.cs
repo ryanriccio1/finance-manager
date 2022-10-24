@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Assignment 16: PoC
+// Program to get data from Chuck Norris API
+// Group Project: Ryan Riccio, Ridge Wada, Young Gi Hong, Koa Afusia
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
