@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIUI", "APIUI\APIUI.csproj", "{EC8858B4-4037-4D62-8D83-51F1991BCB33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceManager", "FinanceManager\FinanceManager.csproj", "{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
