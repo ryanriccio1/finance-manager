@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIUI", "APIUI\APIUI.csproj", "{EC8858B4-4037-4D62-8D83-51F1991BCB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.Domain", "FinanceManager.Domain\FinanceManager.Domain.csproj", "{626C97C1-D578-4277-A0F6-C79063118C33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceManager", "FinanceManager\FinanceManager.csproj", "{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.EntityFramework", "FinanceManager.EntityFramework\FinanceManager.EntityFramework.csproj", "{32978345-7062-45FC-86B7-DF2C43F1E193}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.WPF", "FinanceManager.WPF\FinanceManager.WPF.csproj", "{421BB2E3-F79E-428D-A612-84A26A9F6E9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.FinancialModelAPI", "FinanceManager.FinancialModelAPI\FinanceManager.FinancialModelAPI.csproj", "{5BE5826F-CA56-439A-8936-98ABDC77EC29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceManager.Domain.Tests", "FinanceManager.Domain.Tests\FinanceManager.Domain.Tests.csproj", "{FB9FB816-34C6-4267-97D5-F974FEBBAD6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC8858B4-4037-4D62-8D83-51F1991BCB33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8969836A-6FF7-4BA6-BD6C-7EA497F38B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626C97C1-D578-4277-A0F6-C79063118C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626C97C1-D578-4277-A0F6-C79063118C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626C97C1-D578-4277-A0F6-C79063118C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626C97C1-D578-4277-A0F6-C79063118C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32978345-7062-45FC-86B7-DF2C43F1E193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32978345-7062-45FC-86B7-DF2C43F1E193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32978345-7062-45FC-86B7-DF2C43F1E193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32978345-7062-45FC-86B7-DF2C43F1E193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421BB2E3-F79E-428D-A612-84A26A9F6E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421BB2E3-F79E-428D-A612-84A26A9F6E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421BB2E3-F79E-428D-A612-84A26A9F6E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421BB2E3-F79E-428D-A612-84A26A9F6E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE5826F-CA56-439A-8936-98ABDC77EC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE5826F-CA56-439A-8936-98ABDC77EC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE5826F-CA56-439A-8936-98ABDC77EC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE5826F-CA56-439A-8936-98ABDC77EC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9FB816-34C6-4267-97D5-F974FEBBAD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9FB816-34C6-4267-97D5-F974FEBBAD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9FB816-34C6-4267-97D5-F974FEBBAD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9FB816-34C6-4267-97D5-F974FEBBAD6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
