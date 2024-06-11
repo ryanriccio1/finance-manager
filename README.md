@@ -1,21 +1,5 @@
-# CSC-222 Team Project
+# Finance Manager
 
-## Assignment 16: PoC
+A simple SQLite (EntityFramework) WPF GUI application that fetches stock data and allows multiple local users to authenticate and invest money over time.
 
-### Proof-of-Concept REST API integration in C#.
-
-Uses the NuGET Package _RestSharp_ to perform a GET request with a [Chuck Norris API](https://api.chucknorris.io/) to pull a Chuck Norris joke from an externally hosted server.
-
-### Technical Details
-
-No query is required to get data from the API.</br>
-Data is given in the format of:
-
-```json
-{
-    "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
-    "id": "qo4THZdeRLypW5HqXueEqg",
-    "url": "",
-    "value": "If Chuck Norris was going to die in 4 seconds Steven Seagal \"Might\" get a hit on him with Steven Seagal dieing on Chuck Norris last breath"
-}
-```
+See [IDEA.md](IDEA.md)
